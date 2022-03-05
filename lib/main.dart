@@ -72,6 +72,7 @@ class _HomeAppState extends State<HomeApp> {
           Center(
             child: Stack(
               children: [
+                //last element in stack appears topmost position in screen
                 figureImage(Game.tries >= 0, "assets/hang.png"),
                 figureImage(Game.tries >= 1, "assets/head.png"),
                 figureImage(Game.tries >= 2, "assets/body.png"),
