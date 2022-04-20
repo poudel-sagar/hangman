@@ -93,7 +93,7 @@ class _HomeAppState extends State<HomeApp> {
                 .toList(),
           ),
 
-          //game keyboard started here
+          //game keyboard started heree
           SizedBox(
               width: double.infinity,
               height: 250.0,
