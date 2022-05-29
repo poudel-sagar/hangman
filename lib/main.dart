@@ -25,7 +25,7 @@ class HomeApp extends StatefulWidget {
 class _HomeAppState extends State<HomeApp> {
   String word = "sagar";
 
-  //making a list of alphabet that we use in our keyboard
+  //making a listt of alphabet that we use in our keyboard
   List<String> alphabets = [
     "A",
     "B",
